@@ -12,6 +12,7 @@
 		FC1216E21EF66DFF00EAA28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1216E01EF66DFF00EAA28E /* Main.storyboard */; };
 		FC1216E41EF66DFF00EAA28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1216E31EF66DFF00EAA28E /* Assets.xcassets */; };
 		FC1216E71EF66DFF00EAA28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1216E51EF66DFF00EAA28E /* LaunchScreen.storyboard */; };
+		FC1216EF1EF66E5F00EAA28E /* kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1216EE1EF66E5F00EAA28E /* kenny.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		FC1216E31EF66DFF00EAA28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1216E61EF66DFF00EAA28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1216E81EF66DFF00EAA28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1216EE1EF66E5F00EAA28E /* kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kenny.jpg; path = ../../../Downloads/Images/kenny.jpg; sourceTree = "<group>"; };
+		FC1216F01EF67A2200EAA28E /* kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenny.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,8 @@
 		FC1216DB1EF66DFF00EAA28E /* KennyGame */ = {
 			isa = PBXGroup;
 			children = (
+				FC1216EE1EF66E5F00EAA28E /* kenny.jpg */,
+				FC1216F01EF67A2200EAA28E /* kenny.jpg */,
 				FC1216DC1EF66DFF00EAA28E /* AppDelegate.swift */,
 				FC1216DE1EF66DFF00EAA28E /* ViewController.swift */,
 				FC1216E01EF66DFF00EAA28E /* Main.storyboard */,
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1216E71EF66DFF00EAA28E /* LaunchScreen.storyboard in Resources */,
+				FC1216EF1EF66E5F00EAA28E /* kenny.jpg in Resources */,
 				FC1216E41EF66DFF00EAA28E /* Assets.xcassets in Resources */,
 				FC1216E21EF66DFF00EAA28E /* Main.storyboard in Resources */,
 			);
@@ -312,6 +318,7 @@
 				FC1216ED1EF66DFF00EAA28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
